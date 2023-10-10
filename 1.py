@@ -1,7 +1,7 @@
 import wave
 import struct
 source = wave.open("in.wav", mode="rb")
-dest = wave.open("out.wav", mode="wb")
+dest = wave.open("1.wav", mode="wb")
 dest.setparams(source.getparams())
 
 frames_count = source.getnframes()
